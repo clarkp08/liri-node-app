@@ -11,7 +11,7 @@ var input2 = process.argv.slice(3);
 
 function twitterApi() {
 	var params = {
-        screen_name: 'jkbridges4',
+        screen_name: 'champ_the_dawg',
         count: 20
     };
     client.get('statuses/user_timeline', params, function(error, tweets, response) {
@@ -31,8 +31,8 @@ function spotifyApi() {
     };
 
     var spotify = new Spotify({
-        id: "ba9d27ff0d2e44a299ab27804a8157cd",
-        secret: "4daa856386964c91b1845b8058e5492f"
+        id: "51f0f98d2aad4501adc4743f77b5061f",
+        secret: "18b30664c81e4d7780909c0aa0963c30"
     });
 
     spotify.search({
